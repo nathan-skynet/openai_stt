@@ -24,7 +24,7 @@ _LOGGER = logging.getLogger(__name__)
 
 CONF_API_KEY = 'api_key'
 DEFAULT_LANG = 'en-US'
-OPENAI_STT_URL = "https://api.openai.com/v1/audio/transcriptions"
+OPENAI_STT_URL = "http://10.8.0.13:7556/v1/audio/transcriptions"
 CONF_MODEL = 'model'
 
 PLATFORM_SCHEMA = cv.PLATFORM_SCHEMA.extend({
